@@ -1,0 +1,25 @@
+body {
+    background-color: #fff;
+    color: #000;
+  
+    /* Allow mouse dragging. */
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+  
+    /* disable touch panning/zooming */
+    -ms-touch-action: none;
+    touch-action: none;
+  
+    /* Allow canvas to hit the edges of the browser viewport. */
+    margin: 0;
+  }
+  
+  #screen canvas {
+    margin: 0;
+    /* Hide the gap for font descenders. */
+    display: block;
+  }
+  
