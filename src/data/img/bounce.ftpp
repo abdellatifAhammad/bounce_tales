@@ -1,0 +1,56 @@
+{
+  "meta": {
+    "version": "0.6.7"
+  },
+  "savePath": "/home/zero/Documents/melonjs-learning/data/img",
+  "images": [
+    {
+      "name": "bounce001.png",
+      "path": "/home/zero/Downloads/Untitled/bounce001.png",
+      "folder": ""
+    },
+    {
+      "name": "bounce002.png",
+      "path": "/home/zero/Downloads/Untitled/bounce002.png",
+      "folder": ""
+    },
+    {
+      "name": "bounce003.png",
+      "path": "/home/zero/Downloads/Untitled/bounce003.png",
+      "folder": ""
+    },
+    {
+      "name": "bounce004.png",
+      "path": "/home/zero/Downloads/Untitled/bounce004.png",
+      "folder": ""
+    }
+  ],
+  "folders": [],
+  "packOptions": {
+    "textureName": "bounce",
+    "textureFormat": "png",
+    "removeFileExtension": false,
+    "prependFolderName": true,
+    "base64Export": true,
+    "tinify": false,
+    "tinifyKey": "",
+    "scale": 1,
+    "filter": "none",
+    "exporter": "JSON (array)",
+    "fileName": "pack-result",
+    "savePath": "/home/zero/Documents/melonjs-learning/data/img",
+    "width": 2048,
+    "height": 2048,
+    "fixedSize": false,
+    "powerOfTwo": false,
+    "padding": 0,
+    "extrude": 0,
+    "allowRotation": true,
+    "allowTrim": true,
+    "trimMode": "trim",
+    "alphaThreshold": "0",
+    "detectIdentical": true,
+    "packer": "OptimalPacker",
+    "packerMethod": "Automatic"
+  }
+}

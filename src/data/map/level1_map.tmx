@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="61" height="11" tilewidth="64" tileheight="64" infinite="0" nextlayerid="27" nextobjectid="350">
+ <tileset firstgid="1" source="tileset.tsx"/>
+ <tileset firstgid="57" source="side_tree.tsx"/>
+ <tileset firstgid="72" source="tree.tsx"/>
+ <tileset firstgid="93" source="improved_tileset.tsx"/>
+ <tileset firstgid="157" source="blocks.tsx"/>
+ <tileset firstgid="223" source="bouncing_tales_map1.tsx"/>
+ <imagelayer id="2" name="sky" repeatx="1">
+  <image source="../img/background.png" width="3840" height="720"/>
+  <properties>
+   <property name="ratio" type="float" value="0.5"/>
+   <property name="repeat" value="repeat-x"/>
+  </properties>
+ </imagelayer>
+ <imagelayer id="23" name="sky_trees" offsetx="410.887" offsety="-49.7252" parallaxx="1.1" parallaxy="1.1">
+  <image source="../img/sky_trees.png" width="3840" height="712"/>
+ </imagelayer>
+ <objectgroup id="26" name="effects">
+  <object id="344" name="topoGroundEntity" x="2832.13" y="530.876" width="73.3018" height="15.7217"/>
+  <object id="346" name="topoEntity" x="2830.35" y="493.376" width="32.8827" height="58.9318">
+   <properties>
+    <property name="animationspeed" type="float" value="200"/>
+    <property name="frameheight" type="float" value="45"/>
+    <property name="framewidth" type="float" value="29"/>
+   </properties>
+   <ellipse/>
+  </object>
+ </objectgroup>
+ <layer id="21" name="ground" width="61" height="11">
+  <data encoding="csv">
+0,223,224,225,226,227,228,229,230,231,232,233,234,235,236,237,238,239,240,241,242,243,244,245,246,247,248,249,250,251,252,253,254,255,256,257,258,259,260,261,262,263,264,265,266,267,268,269,270,271,272,273,274,275,276,277,278,279,280,281,282,
+0,283,284,285,286,287,288,289,290,291,292,293,294,295,296,297,298,299,300,301,302,303,304,305,306,307,308,309,310,311,312,313,314,315,316,317,318,319,320,321,322,323,324,325,326,327,328,329,330,331,332,333,334,335,336,337,338,339,340,341,342,
+0,343,344,345,346,347,348,349,350,351,352,353,354,355,356,357,358,359,360,361,362,363,364,365,366,367,368,369,370,371,372,373,374,375,376,377,378,379,380,381,382,383,384,385,386,387,388,389,390,391,392,393,394,395,396,397,398,399,400,401,402,
+0,403,404,405,406,407,408,409,410,411,412,413,414,415,416,417,418,419,420,421,422,423,424,425,426,427,428,429,430,431,432,433,434,435,436,437,438,439,440,441,442,443,444,445,446,447,448,449,450,451,452,453,454,455,456,457,458,459,460,461,462,
+0,463,464,465,466,467,468,469,470,471,472,473,474,475,476,477,478,479,480,481,482,483,484,485,486,487,488,489,490,491,492,493,494,495,496,497,498,499,500,501,502,503,504,505,506,507,508,509,510,511,512,513,514,515,516,517,518,519,520,521,522,
+0,523,524,525,526,527,528,529,530,531,532,533,534,535,536,537,538,539,540,541,542,543,544,545,546,547,548,549,550,551,552,553,554,555,556,557,558,559,560,561,562,563,564,565,566,567,568,569,570,571,572,573,574,575,576,577,578,579,580,581,582,
+0,583,584,585,586,587,588,589,590,591,592,593,594,595,596,597,598,599,600,601,602,603,604,605,606,607,608,609,610,611,612,613,614,615,616,617,618,619,620,621,622,623,624,625,626,627,628,629,630,631,632,633,634,635,636,637,638,639,640,641,642,
+0,643,644,645,646,647,648,649,650,651,652,653,654,655,656,657,658,659,660,661,662,663,664,665,666,667,668,669,670,671,672,673,674,675,676,677,678,679,680,681,682,683,684,685,686,687,688,689,690,691,692,693,694,695,696,697,698,699,700,701,702,
+0,703,704,705,706,707,708,709,710,711,712,713,714,715,716,717,718,719,720,721,722,723,724,725,726,727,728,729,730,731,732,733,734,735,736,737,738,739,740,741,742,743,744,745,746,747,748,749,750,751,752,753,754,755,756,757,758,759,760,761,762,
+0,763,764,765,766,767,768,769,770,771,772,773,774,775,776,777,778,779,780,781,782,783,784,785,786,787,788,789,790,791,792,793,794,795,796,797,798,799,800,801,802,803,804,805,0,0,808,809,810,811,812,813,814,815,816,817,818,819,820,821,822,
+0,823,824,825,826,827,828,829,830,831,832,833,834,835,836,837,838,839,840,841,842,843,844,845,846,847,848,849,850,851,852,853,854,855,856,857,858,859,860,861,862,863,864,865,866,867,868,869,870,871,872,873,874,875,876,877,878,879,880,881,0
+</data>
+ </layer>
+ <objectgroup color="#007d7d" id="24" name="Entities">
+  <object id="313" name="EggEntity" x="178.301" y="185.866" width="25" height="25">
+   <properties>
+    <property name="framewidth" type="float" value="25"/>
+    <property name="image" value="egg"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="314" name="EggEntity" x="437.062" y="211.002" width="25" height="25">
+   <properties>
+    <property name="framewidth" type="float" value="25"/>
+    <property name="image" value="egg"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="315" name="EggEntity" x="176.823" y="486.028" width="25" height="25">
+   <properties>
+    <property name="framewidth" type="float" value="25"/>
+    <property name="image" value="egg"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="316" name="EggEntity" x="462.199" y="477.156" width="25" height="25">
+   <properties>
+    <property name="framewidth" type="float" value="25"/>
+    <property name="image" value="egg"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="317" name="EggEntity" x="518.387" y="366.259" width="25" height="25">
+   <properties>
+    <property name="framewidth" type="float" value="25"/>
+    <property name="image" value="egg"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="318" name="EggEntity" x="623.012" y="364.78" width="25" height="25">
+   <properties>
+    <property name="framewidth" type="float" value="25"/>
+    <property name="image" value="egg"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="319" name="EggEntity" x="770.245" y="409.9" width="25" height="25">
+   <properties>
+    <property name="framewidth" type="float" value="25"/>
+    <property name="image" value="egg"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="320" name="EggEntity" x="910.787" y="521.642" width="25" height="25">
+   <properties>
+    <property name="framewidth" type="float" value="25"/>
+    <property name="image" value="egg"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="321" name="EggEntity" x="985.478" y="369.315" width="25" height="25">
+   <properties>
+    <property name="framewidth" type="float" value="25"/>
+    <property name="image" value="egg"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="322" name="EggEntity" x="1024.55" y="350.412" width="25" height="25">
+   <properties>
+    <property name="framewidth" type="float" value="25"/>
+    <property name="image" value="egg"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="323" name="EggEntity" x="1069.91" y="356.713" width="25" height="25">
+   <properties>
+    <property name="framewidth" type="float" value="25"/>
+    <property name="image" value="egg"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="324" name="EggEntity" x="1240.05" y="467.614" width="25" height="25">
+   <properties>
+    <property name="framewidth" type="float" value="25"/>
+    <property name="image" value="egg"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="325" name="EggEntity" x="1274.07" y="375.616" width="25" height="25">
+   <properties>
+    <property name="framewidth" type="float" value="25"/>
+    <property name="image" value="egg"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="326" name="EggEntity" x="1424.04" y="443.669" width="25" height="25">
+   <properties>
+    <property name="framewidth" type="float" value="25"/>
+    <property name="image" value="egg"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="327" name="EggEntity" x="1368.59" y="359.233" width="25" height="25">
+   <properties>
+    <property name="framewidth" type="float" value="25"/>
+    <property name="image" value="egg"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="329" name="EggEntity" x="1882.77" y="433.587" width="25" height="25">
+   <properties>
+    <property name="framewidth" type="float" value="25"/>
+    <property name="image" value="egg"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="330" name="EggEntity" x="2180.19" y="492.819" width="25" height="25">
+   <properties>
+    <property name="framewidth" type="float" value="25"/>
+    <property name="image" value="egg"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="331" name="EggEntity" x="2333.93" y="525.585" width="25" height="25">
+   <properties>
+    <property name="framewidth" type="float" value="25"/>
+    <property name="image" value="egg"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="332" name="EggEntity" x="2540.61" y="477.696" width="25" height="25">
+   <properties>
+    <property name="framewidth" type="float" value="25"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="333" name="EggEntity" x="2655.3" y="460.052" width="25" height="25">
+   <properties>
+    <property name="framewidth" type="float" value="25"/>
+    <property name="image" value="egg"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="334" name="EggEntity" x="2754.85" y="394.52" width="25" height="25">
+   <properties>
+    <property name="framewidth" type="float" value="25"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="347" name="EggEntity" x="2840.87" y="255.558" width="25" height="25">
+   <properties>
+    <property name="color" value="blue"/>
+    <property name="framewidth" type="float" value="25"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="335" name="EggEntity" x="3088.78" y="437.91" width="25" height="25">
+   <properties>
+    <property name="framewidth" type="float" value="25"/>
+    <property name="image" value="egg"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="336" name="EggEntity" x="3167.68" y="494.015" width="25" height="25">
+   <properties>
+    <property name="framewidth" type="float" value="25"/>
+    <property name="image" value="egg"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="337" name="EggEntity" x="3334.01" y="550.445" width="25" height="25">
+   <properties>
+    <property name="framewidth" type="float" value="25"/>
+    <property name="image" value="egg"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="338" name="EggEntity" x="3590.91" y="557.87" width="25" height="25">
+   <properties>
+    <property name="framewidth" type="float" value="25"/>
+    <property name="image" value="egg"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="328" name="EggEntity" x="1275.33" y="294.961" width="25" height="25">
+   <properties>
+    <property name="framewidth" type="float" value="25"/>
+    <property name="image" value="egg"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="339" name="BarrierEntity" x="1769.83" y="256.842" width="58.9539" height="218">
+   <properties>
+    <property name="framewidth" type="float" value="64"/>
+    <property name="image" value="barrier"/>
+   </properties>
+  </object>
+  <object id="340" name="switchEntity" x="1200.81" y="300.937" width="10.0148" height="28.0513">
+   <properties>
+    <property name="frameheight" type="float" value="62"/>
+    <property name="framewidth" type="float" value="41"/>
+    <property name="path" type="int" value="339"/>
+   </properties>
+  </object>
+  <object id="341" name="machineEntity" x="2987.35" y="469.437" width="38.9006" height="63.1768">
+   <properties>
+    <property name="frameheight" type="float" value="194"/>
+    <property name="framewidth" type="float" value="179"/>
+   </properties>
+  </object>
+  <object id="349" name="EndGameEntity" x="3761.91" y="501.849" width="28.2666" height="46.6238"/>
+ </objectgroup>
+ <objectgroup id="10" name="mainPlayer">
+  <object id="2" name="mainPlayer" x="375.585" y="29.1885" width="45.4623" height="44.894">
+   <properties>
+    <property name="frameHeight" type="int" value="42"/>
+    <property name="frameWidth" type="int" value="42"/>
+   </properties>
+   <ellipse/>
+  </object>
+ </objectgroup>
+ <objectgroup id="11" name="collision" offsetx="2.74873" offsety="-1.06178">
+  <object id="265" x="68.0316" y="1.69581" width="76.4653" height="699.369"/>
+  <object id="266" x="479.985" y="2.19739" width="57.373" height="314.533"/>
+  <object id="267" x="337.964" y="163.644" width="141.769" height="23.7794"/>
+  <object id="268" x="140.72" y="230.087" width="161.968" height="23.0263"/>
+  <object id="269" x="297.072" y="319.502" width="211.838" height="21.87"/>
+  <object id="270" x="141.641" y="532.842" width="693.964" height="169.005"/>
+  <object id="271" x="517.72" y="409.66" width="135.94" height="120.05"/>
+  <object id="272" x="884.723" y="532.826" width="18.9167" height="36.07" rotation="46.5058"/>
+  <object id="273" x="1077.66" y="544.535" width="98.1162" height="37.2024"/>
+  <object id="274" x="1177.13" y="514.532" width="100.952" height="55.2966"/>
+  <object id="275" x="1278.79" y="486.14" width="769.323" height="61.6497"/>
+  <object id="276" x="2437.43" y="542.409" width="702.594" height="32.9507"/>
+  <object id="277" x="3330.29" y="597.614" width="328.448" height="41.4541"/>
+  <object id="278" x="1364.26" y="397.027" width="112.371" height="15.1671"/>
+  <object id="279" x="1160.13" y="333.515" width="157.165" height="22.0643"/>
+  <object id="280" x="1105.77" y="-0.580719" width="52.9698" height="346.474"/>
+  <object id="283" x="497.53" y="416.95" width="20.15" height="85.01" rotation="-14"/>
+  <object id="284" type="slope" x="654.43" y="409.94" width="184.96" height="140.401" rotation="21"/>
+  <object id="286" type="slope" x="836.23" y="506.094" width="154.008" height="25.7656" rotation="346.138"/>
+  <object id="287" type="slope" x="817.89" y="473.77" width="87.52" height="59.8545" rotation="28"/>
+  <object id="290" x="899.106" y="546.242" width="178.773" height="46.2842" rotation="6.28877"/>
+  <object id="291" x="2048.39" y="486.839" width="186.683" height="37.3095" rotation="20.1252"/>
+  <object id="295" x="3140.38" y="542.688" width="200.219" height="37.3095" rotation="16.686"/>
+  <object id="292" x="2224.61" y="551.756" width="53.2992" height="34.4668" rotation="12.4185"/>
+  <object id="293" x="2276.88" y="562.423" width="89.7401" height="33.0213"/>
+  <object id="294" x="2366.74" y="561.679" width="72.7505" height="33.0213" rotation="345.345"/>
+  <object id="296" x="3873.86" y="3.53703" width="27.3102" height="592.822"/>
+  <object id="297" x="62.2296" y="-58.9182" width="3773.74" height="59.98"/>
+  <object id="298" x="1663.28" y="0.110848" width="100.799" height="187.209"/>
+  <object id="301" x="1830.85" y="1.44797" width="89.0398" height="189.792"/>
+  <object id="299" x="1581.5" y="2.09531" width="81.4612" height="61.728"/>
+  <object id="302" x="1920.55" y="2.09531" width="104.218" height="61.728"/>
+  <object id="303" x="1920" y="64" width="62.8709" height="63.9716"/>
+  <object id="304" x="1920.64" y="128.425" width="32.4212" height="61.728"/>
+  <object id="300" x="1622.39" y="64.0653" width="41.841" height="98.6549"/>
+  <object id="305" x="1920.71" y="192.414">
+   <polygon points="0,0 49.6811,-0.961569 -0.961569,39.1038"/>
+  </object>
+  <object id="306" x="1983.04" y="64.8704">
+   <polygon points="0,0 49.6811,-0.961569 -0.961569,39.1038"/>
+  </object>
+  <object id="307" x="1829.58" y="192.905" width="88.3686" height="61.9335"/>
+  <object id="308" x="1693.63" y="192.149" width="70.997" height="61.9335"/>
+  <object id="310" x="3690.99" y="560.692" width="182.016" height="75.1607"/>
+  <object id="311" x="3653.72" y="603.426" width="56.1833" height="51.5016" rotation="310.887"/>
+ </objectgroup>
+</map>

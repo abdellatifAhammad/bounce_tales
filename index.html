@@ -1,16 +1,27 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8"/>
-    <meta id="viewport" name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black">
-    <title>melonJS Vite boilerplate</title>
-  </head>
-  <body>
-      <!-- Canvas placeholder -->
-      <div id="screen"></div>
-      <script type="module" src="src/index.js"></script>
-  </body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/index.css">
+    <title>Learn Melonjs</title>
+</head>
+<body>
+  <!-- Canvas placeholder -->
+  <div id="screen">
+    <div id="blend"></div>
+  </div>
+
+  <!-- Bootstrap -->
+  <script type="module">
+      import { device, Container } from "melonjs";
+      import onload from "./src/index.js";
+
+      device.onReady(() => {
+          device.pauseOnBlur = false;
+          onload();
+      });
+  </script>
+</body>
 </html>
