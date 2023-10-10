@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "version": "0.6.7"
+  },
+  "savePath": "/home/zero/Documents/melonjs-learning/data/img",
+  "images": [
+    {
+      "name": "topo_ground_1.png",
+      "path": "/home/zero/Documents/melonjs-learning/data/img/topo_ground_1.png",
+      "folder": ""
+    },
+    {
+      "name": "topo_ground_2.png",
+      "path": "/home/zero/Documents/melonjs-learning/data/img/topo_ground_2.png",
+      "folder": ""
+    },
+    {
+      "name": "topo_ground_3.png",
+      "path": "/home/zero/Documents/melonjs-learning/data/img/topo_ground_3.png",
+      "folder": ""
+    }
+  ],
+  "folders": [],
+  "packOptions": {
+    "textureName": "topo_ground",
+    "textureFormat": "png",
+    "removeFileExtension": false,
+    "prependFolderName": true,
+    "base64Export": true,
+    "tinify": false,
+    "tinifyKey": "",
+    "scale": 1,
+    "filter": "none",
+    "exporter": "JSON (array)",
+    "fileName": "pack-result",
+    "savePath": "/home/zero/Documents/melonjs-learning/data/img",
+    "width": 2048,
+    "height": 2048,
+    "fixedSize": false,
+    "powerOfTwo": false,
+    "padding": 0,
+    "extrude": 0,
+    "allowRotation": true,
+    "allowTrim": true,
+    "trimMode": "trim",
+    "alphaThreshold": "0",
+    "detectIdentical": true,
+    "packer": "OptimalPacker",
+    "packerMethod": "Automatic"
+  }
+}

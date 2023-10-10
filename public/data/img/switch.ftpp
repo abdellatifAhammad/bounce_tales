@@ -1,0 +1,46 @@
+{
+  "meta": {
+    "version": "0.6.7"
+  },
+  "savePath": "/home/zero/Documents/melonjs-learning/data/img",
+  "images": [
+    {
+      "name": "switch_off.png",
+      "path": "/home/zero/Downloads/Untitled (1)/switch_off.png",
+      "folder": ""
+    },
+    {
+      "name": "switch_on.png",
+      "path": "/home/zero/Downloads/Untitled (1)/switch_on.png",
+      "folder": ""
+    }
+  ],
+  "folders": [],
+  "packOptions": {
+    "textureName": "switch",
+    "textureFormat": "png",
+    "removeFileExtension": false,
+    "prependFolderName": true,
+    "base64Export": true,
+    "tinify": false,
+    "tinifyKey": "",
+    "scale": 1,
+    "filter": "none",
+    "exporter": "JSON (array)",
+    "fileName": "pack-result",
+    "savePath": "/home/zero/Documents/melonjs-learning/data/img",
+    "width": 2048,
+    "height": 2048,
+    "fixedSize": false,
+    "powerOfTwo": false,
+    "padding": 0,
+    "extrude": 0,
+    "allowRotation": true,
+    "allowTrim": true,
+    "trimMode": "crop",
+    "alphaThreshold": "0",
+    "detectIdentical": true,
+    "packer": "OptimalPacker",
+    "packerMethod": "Automatic"
+  }
+}
