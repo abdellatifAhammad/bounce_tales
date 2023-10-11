@@ -38,6 +38,7 @@ var resources = [
     { name: "tree", type: "tsx", src: "../data/map/tree.tsx" },
     { name: "improved_tileset", type: "tsx", src: "../data/map/improved_tileset.tsx" },
     { name: "blocks", type: "tsx", src: "../data/map/blocks.tsx" },
+    { name: "sky", type: "tsx", src: "../data/map/sky.tsx" },
     { name: "bouncing_tales_map1", type: "tsx", src: "../data/map/bouncing_tales_map1.tsx" },
 
 
@@ -49,6 +50,8 @@ var resources = [
     // texturePacker
     { name: "bounce", type: "image", src: "../data/img/bounce.png" },
     { name: "bounce", type: "json", src: "../data/img/bounce.json" },
+    { name: "controlsTexture", type: "image", src: "../data/img/controlsTexture.png" },
+    { name: "controlsTexture", type: "json", src: "../data/img/controlsTexture.json" },
     { name: "switch", type: "image", src: "../data/img/switch.png" },
     { name: "switch", type: "json", src: "../data/img/switch.json" },
     { name: "machine", type: "image", src: "../data/img/machine.png" },
@@ -69,11 +72,9 @@ var resources = [
     { name: "main", type: "audio", src: "../data/bgm/" },
     { name: "win", type: "audio", src: "../data/bgm/" },
 
-    /* Sound effects.
-     * @example
-     * { name: "example_sfx", type: "audio", src: "../data/sfx/" }
-     */
-    // { name: "cling", type: "audio", src: "../data/sfx/" },
+
+    { name: "PressStart2P", type:"image", src: "../data/fnt/PressStart2P.png" },
+    { name: "PressStart2P", type:"binary", src: "../data/fnt/PressStart2P.fnt"}
 
 ];
 

@@ -12,18 +12,23 @@ import topoGroundEntity from './js/entities/topo_ground.js';
 import TopoEggEntity from './js/entities/topo_egg.js';
 import MenuScreen from './js/screens/menu.js';
 import EndGameEntity from './js/entities/endlevel1.js';
+import { DebugPanelPlugin } from "@melonjs/debug-plugin";
+
 
 /**
  *
  * Initialize the application
  */
-export default function onload() {
+function onload() {
 
     // init the video
     if (!me.video.init(4000, 668, { parent: "screen", scaleMethod: "flex-width", renderer: me.video.WEBGL, preferWebGL1: false, depthTest: "z-buffer", subPixel: false })) {
         alert("Your browser does not support HTML5 canvas.");
         return;
     }
+
+    // register the debug plugin
+    me.plugin.register(DebugPanelPlugin, "debugPanel");
 
     // initialize the "sound engine"
     me.audio.init("ogg,mp3");
@@ -42,7 +47,7 @@ export default function onload() {
         // set the fade transition effect
         me.state.transition("fade", "#FFFFFF", 250);
 
-        me.audio.setVolume(me.audio.getVolume()-0.3);
+        me.audio.setVolume(me.audio.getVolume() - 0.3);
 
 
         // register our objects entity in the object pool
@@ -89,9 +94,29 @@ export default function onload() {
             me.loader.getImage("egg")
         );
 
+        // load the texture atlas file
+        // this will be used by renderable object later
+        game.controlsTexture = new me.TextureAtlas(
+            me.loader.getJSON("controlsTexture"),
+            me.loader.getImage("controlsTexture")
+        );
+
+
         me.state.change(me.state.MENU);
         setTimeout(() => {
             me.state.change(me.state.PLAY);
-        }, 1500)
+        }, 1000)
     });
 }
+
+
+
+/**
+ *
+ * start the application
+ */
+
+me.device.onReady(() => {
+    me.device.pauseOnBlur = false;
+    onload();
+});

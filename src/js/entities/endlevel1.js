@@ -38,7 +38,7 @@ class EndGameEntity extends me.Entity {
             setTimeout(()=>{
                 game.data.level1 = "completed"
                 me.state.change(me.state.MENU);
-            },2000);
+            },500);
         }
         return false;
     }

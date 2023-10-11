@@ -14,7 +14,7 @@
   },
   "browserslist": "defaults",
   "scripts": {
-    "dev": "vite",
+    "dev": "vite --host",
     "build": "vite build --base=/bounce_tales/",
     "preview": "vite preview"
   },

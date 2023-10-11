@@ -14,6 +14,7 @@ var game = {
 
     // a reference to the texture atlas
     texture: null,
+    controlsTexture:null,
     switchTexture: null,
     eggTexture: null,
     machineTexture: null,

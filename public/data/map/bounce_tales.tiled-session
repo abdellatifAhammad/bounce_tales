@@ -11,27 +11,27 @@
     "fileStates": {
         "/home/zero/Documents/examples/platformer/data/map/map1.tmx": {
             "expandedObjectLayers": [
-                9,
+                7,
                 5,
-                7
+                9
             ],
-            "scale": 0.3807,
-            "selectedLayer": 4,
+            "scale": 0.1888,
+            "selectedLayer": 3,
             "viewCenter": {
-                "x": 944.3131074336748,
-                "y": 524.0346729708433
+                "x": 1043.4322033898304,
+                "y": 1453.9194915254238
             }
         },
         "/home/zero/Documents/examples/platformer/data/map/map2.json": {
             "expandedObjectLayers": [
-                9,
-                4
+                4,
+                9
             ],
             "scale": 0.362,
-            "selectedLayer": 3,
+            "selectedLayer": 4,
             "viewCenter": {
-                "x": 959.9447513812155,
-                "y": 526.243093922652
+                "x": 1262.4309392265195,
+                "y": 901.9337016574585
             }
         },
         "/home/zero/Documents/examples/platformer/data/map/tileset.json": {
@@ -65,8 +65,8 @@
             "scale": 1.8745,
             "selectedLayer": 4,
             "viewCenter": {
-                "x": 397.9727927447319,
-                "y": 100.826887169912
+                "x": 396.9058415577488,
+                "y": 100.56014937316618
             }
         },
         "side_tree.tsx": {

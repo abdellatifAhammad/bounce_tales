@@ -13,6 +13,8 @@ class EggEntity extends me.Entity {
 
         this.body.isStatic = true;
 
+        this.color = settings.color;
+
         // this item collides ONLY with PLAYER_OBJECT
         this.body.setCollisionMask(me.collision.types.PLAYER_OBJECT);
 
@@ -51,6 +53,11 @@ class EggEntity extends me.Entity {
         this.body.setCollisionMask(me.collision.types.NO_OBJECT);
 
         this.renderable.setCurrentAnimation("smash");
+        if(this.color==="blue"){
+            game.data.score = game.data.score + 4;
+        }else{
+            game.data.score++;
+        }
 
         setTimeout(()=>{
             me.game.world.removeChild(this);
