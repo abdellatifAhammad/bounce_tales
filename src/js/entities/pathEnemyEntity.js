@@ -1,27 +1,17 @@
 import * as me from 'melonjs';
 import game from './../game.js';
 
-/**
- * An enemy entity
- * follow a horizontal path defined by the box size in Tiled
- */
+
 class PathEnemyEntity extends me.Entity {
-    /**
-     * constructor
-     */
+
     constructor(x, y, settings) {
-        // call the super constructor
         super(x, y, settings);
-
-
         // save the area size defined in Tiled
         var height = settings.width || settings.framewidth;
 
         // adjust the setting size to the sprite one
         settings.width = settings.framewidth;
         settings.height = settings.frameheight;
-
-
 
         // redefine the default shape (used to define path) with a shape matching the renderable
         settings.shapes[0] = new me.Rect(0, 0, settings.framewidth, settings.frameheight);
@@ -130,15 +120,10 @@ class PathEnemyEntity extends me.Entity {
                 maxLife: 5,
                 speed: 3
             });
-
             game.isTopoGroundExist = false;
             me.game.world.addChild(emitter, this.pos.z);
             me.game.world.removeChild(this);
             emitter.burstParticles();
-
-            //     // dead sfx
-            //     // give some score
-            //     // game.data.score += 150;
         }
         return false;
     }

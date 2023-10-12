@@ -2,8 +2,6 @@ import * as me from 'melonjs';
 import game from './../game.js';
 
 class EggEntity extends me.Entity {
-    // extending the init function is not mandatory
-    // unless you need to add some extra initialization
     constructor(x, y, settings) {
         // call the parent constructor
         super(x, y, settings);

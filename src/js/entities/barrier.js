@@ -2,8 +2,7 @@ import * as me from 'melonjs';
 import game from './../game.js';
 
 class BarrierEntity extends me.Entity {
-    // extending the init function is not mandatory
-    // unless you need to add some extra initialization
+
     constructor(x, y, settings) {
         // call the parent constructor
         super(x, y, settings);
@@ -26,11 +25,11 @@ class BarrierEntity extends me.Entity {
 
 
     /**
- * Update the Entity
- *
- * @param dt
- * @returns {any|boolean}
- */
+     * Update the Entity
+     *
+     * @param dt
+     * @returns {any|boolean}
+     */
     update(dt) {
 
         if (game.isBarrierOpen && !this.open) {
@@ -45,14 +44,6 @@ class BarrierEntity extends me.Entity {
         }
 
         return (super.update(dt) || this.body.vel.x !== 0 || this.body.vel.y !== 0);
-    }
-
-
-    // this function is called by the engine, when
-    // an object is touched by something (here collected)
-    onCollision(response, other) {
-        // do something when collected
-        return false
     }
 };
 

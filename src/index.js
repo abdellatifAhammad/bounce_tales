@@ -9,7 +9,6 @@ import switchEntity from './js/entities/switch.js';
 import machineEntity from './js/entities/machine.js';
 import topoEntity from './js/entities/topo.js';
 import topoGroundEntity from './js/entities/topo_ground.js';
-import TopoEggEntity from './js/entities/topo_egg.js';
 import MenuScreen from './js/screens/menu.js';
 import EndGameEntity from './js/entities/endlevel1.js';
 
@@ -52,7 +51,6 @@ function onload() {
         me.pool.register("machineEntity", machineEntity);
         me.pool.register("topoEntity", topoEntity);
         me.pool.register("topoGroundEntity", topoGroundEntity);
-        me.pool.register("EggTopoEntity", TopoEggEntity);
         me.pool.register("EndGameEntity", EndGameEntity);
         me.pool.register("EggEntity", EggEntity);
 

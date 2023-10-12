@@ -17,6 +17,7 @@ class PlayScreen extends me.Stage {
         if (typeof this.HUD === "undefined") {
             this.HUD = new UIContainer();
         }
+
         me.game.world.addChild(this.HUD);
 
         // display if debugPanel is enabled or on mobile
@@ -45,6 +46,8 @@ class PlayScreen extends me.Stage {
             this.virtualJoypad = undefined;
         }
 
+
+        // stop the bgm
         me.audio.stopTrack("main");
     }
 };

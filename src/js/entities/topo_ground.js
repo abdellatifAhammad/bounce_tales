@@ -1,19 +1,11 @@
 import * as me from 'melonjs';
 import game from './../game.js';
-import PathEnemyEntity from './pathEnemyEntity.js';
 
-/**
- * An Slime enemy entity
- * follow a horizontal path defined by the box size in Tiled
- */
+
 export class topoGroundEntity extends me.Entity {
-    /**
-     * constructor
-     */
-    constructor(x, y, settings) {
-        // super constructor
-        super(x, y, settings);
 
+    constructor(x, y, settings) {
+        super(x, y, settings);
 
         this.body.setMaxVelocity(3, 5);
         this.body.setFriction(0.9, 0);
@@ -30,13 +22,13 @@ export class topoGroundEntity extends me.Entity {
             "topo_ground_3.png"
         ]);
 
-        // custom animation speed ?
-        if (settings.animationspeed) {
-            this.renderable.animationspeed = settings.animationspeed;
-        }
+        // // custom animation speed ?
+        // if (settings.animationspeed) {
+        //     this.renderable.animationspeed = settings.animationspeed;
+        // }
 
         // walking animatin
-        this.renderable.addAnimation("moving", [{ name: "topo_ground_1.png", delay: 200 }, { name: "topo_ground_3.png", delay: 500 }, { name: "topo_ground_2.png", delay: 200 }]);
+        this.renderable.addAnimation("moving", [{ name: "topo_ground_1.png", delay: 100 }, { name: "topo_ground_3.png", delay: 100 }, { name: "topo_ground_2.png", delay: 100 }]);
         // dead animatin
         this.renderable.addAnimation("stoped", [{ name: "topo_ground_1.png", delay: 100 }]);
 
@@ -56,13 +48,9 @@ export class topoGroundEntity extends me.Entity {
         }
     }
 
-
     onCollision(response, other) {
-        // do something when collected
-
-        // make sure it cannot be collected "again"
         this.body.setCollisionMask(me.collision.types.NO_OBJECT);
-
+        return true;
     }
 
 };

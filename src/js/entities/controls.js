@@ -2,7 +2,7 @@ import * as me from 'melonjs';
 import game from './../game.js';
 
 /**
- * a basic control to toggle fullscreen on/off
+ * a basic control to make the player jump
  */
 class Button extends me.GUI_Object {
     /**
@@ -49,7 +49,6 @@ class Joypad extends me.GUI_Object {
         super(x, y, {
             // background "fix" part of the joypad
             image: game.texture,
-            // region : "shadedDark07.png",
             region : "controler_left_right.png",
             anchorPoint : new me.Vector2d(0, 0)
         });
@@ -74,7 +73,6 @@ class Joypad extends me.GUI_Object {
         this.setOpacity(0.25);
 
         // cursors status
-        // TODO make it configurable
         this.cursors = {
             up: false,
             down: false,

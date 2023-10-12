@@ -2,14 +2,10 @@ import * as me from 'melonjs';
 import game from './../game.js';
 import PathEnemyEntity from './pathEnemyEntity.js';
 
-/**
- * An Slime enemy entity
- * follow a horizontal path defined by the box size in Tiled
- */
+
+
 export class topoEntity extends PathEnemyEntity {
-    /**
-     * constructor
-     */
+
     constructor(x, y, settings) {
         // super constructor
         super(x, y, settings);

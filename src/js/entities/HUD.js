@@ -3,7 +3,7 @@ import game from './../game.js';
 
 
 /**
- * a basic control
+ * audio controller (mute/unmute)
  */
 class AudioControl extends me.UISpriteElement {
     /**
@@ -12,7 +12,6 @@ class AudioControl extends me.UISpriteElement {
     constructor(x, y) {
         super(x, y, {
             image: game.texture,
-            // region : "shadedDark13.png" // ON by default
             region : "mute.png"
         });
         this.setOpacity(0.5);
@@ -40,12 +39,10 @@ class AudioControl extends me.UISpriteElement {
     onClick(/* event */) {
         if (this.isMute) {
             me.audio.unmuteAll();
-            // this.setRegion(game.texture.getRegion("shadedDark13.png"));
             this.setRegion(game.texture.getRegion("mute.png"));
             this.isMute = false;
         } else {
             me.audio.muteAll();
-            // this.setRegion(game.texture.getRegion("shadedDark15.png"));
             this.setRegion(game.texture.getRegion("unmute.png"));
             this.isMute = true;
         }
@@ -106,27 +103,19 @@ class ScoreItem extends me.BitmapText {
 class UIContainer extends me.Container {
 
     constructor() {
-        // call the constructor
         super();
-
         // persistent across level change
         this.isPersistent = true;
-
         // Use screen coordinates
         this.floating = true;
-
         // make sure our object is always draw first
         this.z = Infinity;
-
         // give a name
         this.name = "HUD";
-
         // add our child score object at position
         this.addChild(new ScoreItem(me.game.viewport.width -40, 40));
-
         // add our audio control object
         this.addChild(new AudioControl(36, 56));
-
     }
 };
 

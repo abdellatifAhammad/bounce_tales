@@ -9,13 +9,13 @@ var game = {
     data: {
         // score
         score: 0,
+        // state of level 1
         level_1:"begin",
     },
 
     // a reference to the texture atlas
     texture:null,
 
-    // to change the state of the barrier
     isBarrierOpen: false,
     isTopoGroundExist: true,
 };
