@@ -18,7 +18,7 @@ class TopoEggEntity extends me.Entity {
 
 
          // set a renderable
-         this.renderable = game.eggTexture.createAnimationFromName([
+         this.renderable = game.texture.createAnimationFromName([
             "blue_egg.png", 
             "stars_1.png",
             "stars_2.png",
@@ -37,7 +37,7 @@ class TopoEggEntity extends me.Entity {
 
 
     update(dt){
-        if(!game.topo_ground_existance){
+        if(!game.isTopoGroundExist){
             this.renderable.setCurrentAnimation("normal");
         }
 

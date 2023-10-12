@@ -37,7 +37,7 @@ class GameStartControl extends me.UISpriteElement {
      */
     constructor(x, y) {
         super(x, y, {
-            image: game.controlsTexture,
+            image: game.texture,
             // region : "shadedDark13.png" // ON by default
             region : "start.png"
         });

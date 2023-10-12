@@ -9,21 +9,15 @@ var game = {
     data: {
         // score
         score: 0,
-        level1:"begin",
+        level_1:"begin",
     },
 
     // a reference to the texture atlas
-    texture: null,
-    controlsTexture:null,
-    switchTexture: null,
-    eggTexture: null,
-    machineTexture: null,
-    topoTexture: null,
-    topoGroundTexture: null,
+    texture:null,
 
     // to change the state of the barrier
     isBarrierOpen: false,
-    topo_ground_existance: true,
+    isTopoGroundExist: true,
 };
 
 export default game;

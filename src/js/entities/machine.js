@@ -19,7 +19,7 @@ class machineEntity extends me.Entity {
         this.body.setCollisionMask(me.collision.types.PLAYER_OBJECT);
 
         // set a renderable
-        this.renderable = game.machineTexture.createAnimationFromName([
+        this.renderable = game.texture.createAnimationFromName([
             "machine_1.png",
             "machine_2.png",
             "machine_3.png",

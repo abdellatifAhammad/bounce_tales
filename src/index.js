@@ -60,40 +60,8 @@ function onload() {
         // load the texture atlas file
         // this will be used by renderable object later
         game.texture = new me.TextureAtlas(
-            me.loader.getJSON("bounce"),
-            me.loader.getImage("bounce")
-        );
-
-        game.switchTexture = new me.TextureAtlas(
-            me.loader.getJSON("switch"),
-            me.loader.getImage("switch")
-        );
-
-        game.machineTexture = new me.TextureAtlas(
-            me.loader.getJSON("machine"),
-            me.loader.getImage("machine")
-        );
-
-        game.topoTexture = new me.TextureAtlas(
-            me.loader.getJSON("topo"),
-            me.loader.getImage("topo")
-        );
-
-        game.topoGroundTexture = new me.TextureAtlas(
-            me.loader.getJSON("topo_ground"),
-            me.loader.getImage("topo_ground")
-        );
-
-        game.eggTexture = new me.TextureAtlas(
-            me.loader.getJSON("egg"),
-            me.loader.getImage("egg")
-        );
-
-        // load the texture atlas file
-        // this will be used by renderable object later
-        game.controlsTexture = new me.TextureAtlas(
-            me.loader.getJSON("controlsTexture"),
-            me.loader.getImage("controlsTexture")
+            me.loader.getJSON("texture"),
+            me.loader.getImage("texture")
         );
 
 

@@ -11,7 +11,7 @@ class AudioControl extends me.UISpriteElement {
      */
     constructor(x, y) {
         super(x, y, {
-            image: game.controlsTexture,
+            image: game.texture,
             // region : "shadedDark13.png" // ON by default
             region : "mute.png"
         });
@@ -40,13 +40,13 @@ class AudioControl extends me.UISpriteElement {
     onClick(/* event */) {
         if (this.isMute) {
             me.audio.unmuteAll();
-            // this.setRegion(game.controlsTexture.getRegion("shadedDark13.png"));
-            this.setRegion(game.controlsTexture.getRegion("mute.png"));
+            // this.setRegion(game.texture.getRegion("shadedDark13.png"));
+            this.setRegion(game.texture.getRegion("mute.png"));
             this.isMute = false;
         } else {
             me.audio.muteAll();
-            // this.setRegion(game.controlsTexture.getRegion("shadedDark15.png"));
-            this.setRegion(game.controlsTexture.getRegion("unmute.png"));
+            // this.setRegion(game.texture.getRegion("shadedDark15.png"));
+            this.setRegion(game.texture.getRegion("unmute.png"));
             this.isMute = true;
         }
         return false;

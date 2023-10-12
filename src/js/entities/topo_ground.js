@@ -24,7 +24,7 @@ export class topoGroundEntity extends me.Entity {
 
 
         // set a renderable
-        this.renderable = game.topoGroundTexture.createAnimationFromName([
+        this.renderable = game.texture.createAnimationFromName([
             "topo_ground_1.png",
             "topo_ground_2.png",
             "topo_ground_3.png"
@@ -51,7 +51,7 @@ export class topoGroundEntity extends me.Entity {
 
 
     update(dt){
-        if(!game.topo_ground_existance){
+        if(!game.isTopoGroundExist){
             me.game.world.removeChild(this);
         }
     }

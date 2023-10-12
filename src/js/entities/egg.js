@@ -20,7 +20,7 @@ class EggEntity extends me.Entity {
 
 
          // set a renderable
-         this.renderable = game.eggTexture.createAnimationFromName([
+         this.renderable = game.texture.createAnimationFromName([
             "egg.png", 
             "blue_egg.png",
             "stars_1.png",

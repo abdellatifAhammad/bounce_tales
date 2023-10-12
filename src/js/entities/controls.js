@@ -10,7 +10,7 @@ class Button extends me.GUI_Object {
      */
     constructor(x, y) {
         super(x, y, {
-            image: game.controlsTexture,
+            image: game.texture,
             // region : "shadedDark36.png"s
             region : "controler_jump.png"
         });
@@ -48,7 +48,7 @@ class Joypad extends me.GUI_Object {
     constructor(x, y) {
         super(x, y, {
             // background "fix" part of the joypad
-            image: game.controlsTexture,
+            image: game.texture,
             // region : "shadedDark07.png",
             region : "controler_left_right.png",
             anchorPoint : new me.Vector2d(0, 0)
@@ -56,7 +56,7 @@ class Joypad extends me.GUI_Object {
 
         // mobile part of the joypad
         this.pad = new me.Sprite(x, y, {
-            image: game.controlsTexture,
+            image: game.texture,
             region : "controler_left_right.png",
             anchorPoint : new me.Vector2d(0, 0)
         });

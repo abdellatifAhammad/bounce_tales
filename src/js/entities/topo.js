@@ -15,7 +15,7 @@ export class topoEntity extends PathEnemyEntity {
         super(x, y, settings);
 
         // set a renderable
-        this.renderable = game.topoTexture.createAnimationFromName([
+        this.renderable = game.texture.createAnimationFromName([
             "topo.png", 
         ]);
 

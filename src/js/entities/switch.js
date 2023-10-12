@@ -17,7 +17,7 @@ class switchEntity extends me.Entity {
         this.body.setCollisionMask(me.collision.types.PLAYER_OBJECT);
 
         // set a renderable
-        this.renderable = game.switchTexture.createAnimationFromName([
+        this.renderable = game.texture.createAnimationFromName([
             "switch_off.png",
             "switch_on.png"
         ]);

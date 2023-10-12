@@ -39,6 +39,8 @@ var resources = [
     * { name: "example_tps", type: "json", src: "data/img/example_tps.json" },
     */
     // texturePacker
+    { name: "texture", type: "image", src: "data/img/texture.png" },
+    { name: "texture", type: "json", src: "data/img/texture.json" },
     { name: "bounce", type: "image", src: "data/img/bounce.png" },
     { name: "bounce", type: "json", src: "data/img/bounce.json" },
     { name: "controlsTexture", type: "image", src: "data/img/controlsTexture.png" },
