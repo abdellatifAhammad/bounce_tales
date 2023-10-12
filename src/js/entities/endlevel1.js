@@ -34,12 +34,8 @@ class EndGameEntity extends me.Entity {
     // an object is touched by something (here collected)
     onCollision(response, other) {
         // do something when collected
-        if(game.data.level1!=="completed"){
-            setTimeout(()=>{
-                game.data.level1 = "completed"
-                me.state.change(me.state.MENU);
-            },500);
-        }
+        me.state.change(me.state.MENU);
+        game.data.level1 = "completed";
         return false;
     }
 };

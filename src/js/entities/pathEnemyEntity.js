@@ -131,9 +131,9 @@ class PathEnemyEntity extends me.Entity {
                 speed: 3
             });
 
+            game.topo_ground_existance = false;
             me.game.world.addChild(emitter, this.pos.z);
             me.game.world.removeChild(this);
-            game.topo_ground_existance = false;
             emitter.burstParticles();
 
             //     // dead sfx

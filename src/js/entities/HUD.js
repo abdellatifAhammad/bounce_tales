@@ -63,13 +63,14 @@ class ScoreItem extends me.BitmapText {
     constructor(x, y) {
         // call the super constructor
         super(
-            me.game.viewport.width  + x,
-            me.game.viewport.height + y,
+            x,
+            y,
             {
                 font : "PressStart2P",
                 textAlign : "right",
-                textBaseline : "bottom",
-                text : "0"
+                textBaseline : "top",
+                text : "0/30",
+                size:1,
             }
         );
 
@@ -92,7 +93,7 @@ class ScoreItem extends me.BitmapText {
     update( dt ) {
         if (this.score !== game.data.score) {
             this.score = game.data.score;
-            this.setText(this.score);
+            this.setText(`${this.score}/30`);
             this.isDirty = false;
         }
         return super.update(dt);
@@ -121,7 +122,7 @@ class UIContainer extends me.Container {
         this.name = "HUD";
 
         // add our child score object at position
-        this.addChild(new ScoreItem(-10, -10));
+        this.addChild(new ScoreItem(me.game.viewport.width -40, 40));
 
         // add our audio control object
         this.addChild(new AudioControl(36, 56));

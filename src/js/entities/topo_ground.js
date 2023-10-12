@@ -36,7 +36,7 @@ export class topoGroundEntity extends me.Entity {
         }
 
         // walking animatin
-        this.renderable.addAnimation("moving", [{ name: "topo_ground_1.png", delay: 500 }, { name: "topo_ground_3.png", delay: 1000 }, { name: "topo_ground_2.png", delay: 500 }]);
+        this.renderable.addAnimation("moving", [{ name: "topo_ground_1.png", delay: 200 }, { name: "topo_ground_3.png", delay: 500 }, { name: "topo_ground_2.png", delay: 200 }]);
         // dead animatin
         this.renderable.addAnimation("stoped", [{ name: "topo_ground_1.png", delay: 100 }]);
 

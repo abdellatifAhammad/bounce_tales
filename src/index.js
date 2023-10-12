@@ -12,8 +12,6 @@ import topoGroundEntity from './js/entities/topo_ground.js';
 import TopoEggEntity from './js/entities/topo_egg.js';
 import MenuScreen from './js/screens/menu.js';
 import EndGameEntity from './js/entities/endlevel1.js';
-import { DebugPanelPlugin } from "@melonjs/debug-plugin";
-
 
 /**
  *
@@ -26,9 +24,6 @@ function onload() {
         alert("Your browser does not support HTML5 canvas.");
         return;
     }
-
-    // register the debug plugin
-    me.plugin.register(DebugPanelPlugin, "debugPanel");
 
     // initialize the "sound engine"
     me.audio.init("ogg,mp3");
@@ -53,13 +48,13 @@ function onload() {
         // register our objects entity in the object pool
         me.pool.register("mainPlayer", PlayerEntity);
         me.pool.register("BarrierEntity", BarrierEntity);
-        me.pool.register("switchEntity", switchEntity, true);
-        me.pool.register("machineEntity", machineEntity, true);
-        me.pool.register("topoEntity", topoEntity, true);
+        me.pool.register("switchEntity", switchEntity);
+        me.pool.register("machineEntity", machineEntity);
+        me.pool.register("topoEntity", topoEntity);
         me.pool.register("topoGroundEntity", topoGroundEntity);
         me.pool.register("EggTopoEntity", TopoEggEntity);
         me.pool.register("EndGameEntity", EndGameEntity);
-        me.pool.register("EggEntity", EggEntity, true);
+        me.pool.register("EggEntity", EggEntity);
 
 
         // load the texture atlas file
@@ -103,9 +98,6 @@ function onload() {
 
 
         me.state.change(me.state.MENU);
-        setTimeout(() => {
-            me.state.change(me.state.PLAY);
-        }, 1000)
     });
 }
 

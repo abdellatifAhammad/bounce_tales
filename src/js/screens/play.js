@@ -35,6 +35,8 @@ class PlayScreen extends me.Stage {
 
         // remove the HUD from the game world
         me.game.world.removeChild(this.HUD);
+        this.HUD = undefined;
+        this.data.score = 0;
 
         // remove the joypad if initially added
         if (this.virtualJoypad && me.game.world.hasChild(this.virtualJoypad)) {
