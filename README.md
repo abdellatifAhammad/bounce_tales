@@ -19,6 +19,25 @@ This clone will include most of the features of the original Bounce Tales game, 
 - Bosses
 - Multiple difficulty levels
 
+## Implemented Levels
+
+- ✅ Misty Morning (Easy,introduction)
+- Unfriendly Friends
+- Seeking Answers
+- Bumpy Cracks
+- Secret Stalkway
+- Into the Mines
+- A Gloomy Path
+- Rumbling Sounds
+- Trapped in Machine
+- Tunnel of Treasures
+- Wicked Circus
+- Hunting Colours
+- Almost There
+- Final Ride
+- Bonus Chapter: Fantastic Fair
+
+
 ## Development Tools
 
 I used the following tools to develop this game:
