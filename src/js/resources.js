@@ -28,20 +28,6 @@ var resources = [
     */
     { name: "texture", type: "image", src: "data/img/texture.png" },
     { name: "texture", type: "json", src: "data/img/texture.json" },
-    { name: "bounce", type: "image", src: "data/img/bounce.png" },
-    { name: "bounce", type: "json", src: "data/img/bounce.json" },
-    { name: "controlsTexture", type: "image", src: "data/img/controlsTexture.png" },
-    { name: "controlsTexture", type: "json", src: "data/img/controlsTexture.json" },
-    { name: "switch", type: "image", src: "data/img/switch.png" },
-    { name: "switch", type: "json", src: "data/img/switch.json" },
-    { name: "machine", type: "image", src: "data/img/machine.png" },
-    { name: "machine", type: "json", src: "data/img/machine.json" },
-    { name: "topo", type: "image", src: "data/img/topo.png" },
-    { name: "topo", type: "json", src: "data/img/topo.json" },
-    { name: "topo_ground", type: "image", src: "data/img/topo_ground.png" },
-    { name: "topo_ground", type: "json", src: "data/img/topo_ground.json" },
-    { name: "egg", type: "image", src: "data/img/egg.png" },
-    { name: "egg", type: "json", src: "data/img/egg.json" },
 
 
     /* Background music.

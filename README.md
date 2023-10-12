@@ -10,7 +10,6 @@ I am a big fan of old Nokia games, and Bounce Tales is one of my all-time favori
 
 ## Features
 
-
 This clone will include most of the features of the original Bounce Tales game, such as:
 
 - A variety of different levels
@@ -18,6 +17,15 @@ This clone will include most of the features of the original Bounce Tales game, 
 - Power-ups
 - Bosses
 - Multiple difficulty levels
+
+In addition to these features, you can play the game on different screen sizes, including desktop and mobile devices.
+
+
+## Screenshots
+
+![](./docs/desktop.png)
+![](./docs/mobile.png)
+
 
 ## Implemented Levels
 

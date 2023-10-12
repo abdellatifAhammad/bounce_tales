@@ -58,126 +58,108 @@
   <object id="313" name="EggEntity" x="178.301" y="185.866" width="25" height="25">
    <properties>
     <property name="framewidth" type="float" value="25"/>
-    <property name="image" value="egg"/>
    </properties>
    <ellipse/>
   </object>
   <object id="314" name="EggEntity" x="437.062" y="211.002" width="25" height="25">
    <properties>
     <property name="framewidth" type="float" value="25"/>
-    <property name="image" value="egg"/>
    </properties>
    <ellipse/>
   </object>
   <object id="315" name="EggEntity" x="176.823" y="486.028" width="25" height="25">
    <properties>
     <property name="framewidth" type="float" value="25"/>
-    <property name="image" value="egg"/>
    </properties>
    <ellipse/>
   </object>
   <object id="316" name="EggEntity" x="462.199" y="477.156" width="25" height="25">
    <properties>
     <property name="framewidth" type="float" value="25"/>
-    <property name="image" value="egg"/>
    </properties>
    <ellipse/>
   </object>
   <object id="317" name="EggEntity" x="518.387" y="366.259" width="25" height="25">
    <properties>
     <property name="framewidth" type="float" value="25"/>
-    <property name="image" value="egg"/>
    </properties>
    <ellipse/>
   </object>
   <object id="318" name="EggEntity" x="623.012" y="364.78" width="25" height="25">
    <properties>
     <property name="framewidth" type="float" value="25"/>
-    <property name="image" value="egg"/>
    </properties>
    <ellipse/>
   </object>
   <object id="319" name="EggEntity" x="770.245" y="409.9" width="25" height="25">
    <properties>
     <property name="framewidth" type="float" value="25"/>
-    <property name="image" value="egg"/>
    </properties>
    <ellipse/>
   </object>
   <object id="320" name="EggEntity" x="910.787" y="521.642" width="25" height="25">
    <properties>
     <property name="framewidth" type="float" value="25"/>
-    <property name="image" value="egg"/>
    </properties>
    <ellipse/>
   </object>
   <object id="321" name="EggEntity" x="985.478" y="369.315" width="25" height="25">
    <properties>
     <property name="framewidth" type="float" value="25"/>
-    <property name="image" value="egg"/>
    </properties>
    <ellipse/>
   </object>
   <object id="322" name="EggEntity" x="1024.55" y="350.412" width="25" height="25">
    <properties>
     <property name="framewidth" type="float" value="25"/>
-    <property name="image" value="egg"/>
    </properties>
    <ellipse/>
   </object>
   <object id="323" name="EggEntity" x="1069.91" y="356.713" width="25" height="25">
    <properties>
     <property name="framewidth" type="float" value="25"/>
-    <property name="image" value="egg"/>
    </properties>
    <ellipse/>
   </object>
   <object id="324" name="EggEntity" x="1240.05" y="467.614" width="25" height="25">
    <properties>
     <property name="framewidth" type="float" value="25"/>
-    <property name="image" value="egg"/>
    </properties>
    <ellipse/>
   </object>
   <object id="325" name="EggEntity" x="1274.07" y="375.616" width="25" height="25">
    <properties>
     <property name="framewidth" type="float" value="25"/>
-    <property name="image" value="egg"/>
    </properties>
    <ellipse/>
   </object>
   <object id="326" name="EggEntity" x="1424.04" y="443.669" width="25" height="25">
    <properties>
     <property name="framewidth" type="float" value="25"/>
-    <property name="image" value="egg"/>
    </properties>
    <ellipse/>
   </object>
   <object id="327" name="EggEntity" x="1368.59" y="359.233" width="25" height="25">
    <properties>
     <property name="framewidth" type="float" value="25"/>
-    <property name="image" value="egg"/>
    </properties>
    <ellipse/>
   </object>
   <object id="329" name="EggEntity" x="1882.77" y="433.587" width="25" height="25">
    <properties>
     <property name="framewidth" type="float" value="25"/>
-    <property name="image" value="egg"/>
    </properties>
    <ellipse/>
   </object>
   <object id="330" name="EggEntity" x="2180.19" y="492.819" width="25" height="25">
    <properties>
     <property name="framewidth" type="float" value="25"/>
-    <property name="image" value="egg"/>
    </properties>
    <ellipse/>
   </object>
   <object id="331" name="EggEntity" x="2333.93" y="525.585" width="25" height="25">
    <properties>
     <property name="framewidth" type="float" value="25"/>
-    <property name="image" value="egg"/>
    </properties>
    <ellipse/>
   </object>
@@ -190,7 +172,6 @@
   <object id="333" name="EggEntity" x="2655.3" y="460.052" width="25" height="25">
    <properties>
     <property name="framewidth" type="float" value="25"/>
-    <property name="image" value="egg"/>
    </properties>
    <ellipse/>
   </object>
@@ -210,35 +191,30 @@
   <object id="335" name="EggEntity" x="3088.78" y="437.91" width="25" height="25">
    <properties>
     <property name="framewidth" type="float" value="25"/>
-    <property name="image" value="egg"/>
    </properties>
    <ellipse/>
   </object>
   <object id="336" name="EggEntity" x="3167.68" y="494.015" width="25" height="25">
    <properties>
     <property name="framewidth" type="float" value="25"/>
-    <property name="image" value="egg"/>
    </properties>
    <ellipse/>
   </object>
   <object id="337" name="EggEntity" x="3334.01" y="550.445" width="25" height="25">
    <properties>
     <property name="framewidth" type="float" value="25"/>
-    <property name="image" value="egg"/>
    </properties>
    <ellipse/>
   </object>
   <object id="338" name="EggEntity" x="3590.91" y="557.87" width="25" height="25">
    <properties>
     <property name="framewidth" type="float" value="25"/>
-    <property name="image" value="egg"/>
    </properties>
    <ellipse/>
   </object>
   <object id="328" name="EggEntity" x="1275.33" y="294.961" width="25" height="25">
    <properties>
     <property name="framewidth" type="float" value="25"/>
-    <property name="image" value="egg"/>
    </properties>
    <ellipse/>
   </object>
