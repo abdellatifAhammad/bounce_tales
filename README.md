@@ -23,8 +23,17 @@ In addition to these features, you can play the game on different screen sizes, 
 
 ## Screenshots
 
-![](./docs/desktop.png)
-![](./docs/mobile.png)
+#### Desktop
+
+<span>
+<img src="./docs/desktop.png">
+</span>
+
+#### Mobile
+
+<span>
+<img src="./docs/mobile.png" width="250px">
+</span>
 
 
 ## Implemented Levels
