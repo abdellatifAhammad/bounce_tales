@@ -8,6 +8,8 @@
 
 I am a big fan of old Nokia games, and Bounce Tales is one of my all-time favorites. I decided to create this clone in JavaScript to relive some of my childhood nostalgia.
 
+to play the game : https://abdellatifahammad.github.io/bounce_tales/ 
+
 ## Features
 
 This clone will include most of the features of the original Bounce Tales game, such as:
