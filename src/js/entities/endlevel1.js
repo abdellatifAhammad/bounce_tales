@@ -35,7 +35,7 @@ class EndGameEntity extends me.Entity {
     onCollision(response, other) {
         // do something when collected
         me.state.change(me.state.MENU);
-        game.data.level1 = "completed";
+        // game.data.level1 = "completed";
         return false;
     }
 };

@@ -6,17 +6,17 @@
   "images": [
     {
       "name": "controler_jump.png",
-      "path": "/home/zero/Documents/bounce_tales/src/data/img/controler_jump.png",
+      "path": "/home/zero/Documents/bounce_tales/src/data/img/assets/controler_jump.png",
       "folder": ""
     },
     {
       "name": "controler_left_right.png",
-      "path": "/home/zero/Documents/bounce_tales/src/data/img/controler_left_right.png",
+      "path": "/home/zero/Documents/bounce_tales/src/data/img/assets/controler_left_right.png",
       "folder": ""
     },
     {
       "name": "mute.png",
-      "path": "/home/zero/Documents/bounce_tales/src/data/img/mute.png",
+      "path": "/home/zero/Documents/bounce_tales/src/data/img/assets/mute.png",
       "folder": ""
     },
     {
@@ -26,7 +26,7 @@
     },
     {
       "name": "unmute.png",
-      "path": "/home/zero/Documents/bounce_tales/src/data/img/unmute.png",
+      "path": "/home/zero/Documents/bounce_tales/src/data/img/assets/unmute.png",
       "folder": ""
     }
   ],

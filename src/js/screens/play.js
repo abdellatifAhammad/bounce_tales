@@ -1,6 +1,7 @@
 import * as me from 'melonjs';
 import UIContainer from '../entities/HUD';
 import VirtualJoypad from '../entities/controls';
+import game from '../game';
 
 class PlayScreen extends me.Stage {
     /**
@@ -36,11 +37,12 @@ class PlayScreen extends me.Stage {
         // remove the HUD from the game world
         me.game.world.removeChild(this.HUD);
         this.HUD = undefined;
-        this.data.score = 0;
-
+        game.data.score = 0;
+        
         // remove the joypad if initially added
         if (this.virtualJoypad && me.game.world.hasChild(this.virtualJoypad)) {
             me.game.world.removeChild(this.virtualJoypad);
+            this.virtualJoypad = undefined;
         }
 
         me.audio.stopTrack("main");
