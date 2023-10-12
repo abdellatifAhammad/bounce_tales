@@ -1,0 +1,166 @@
+{
+  "meta": {
+    "version": "0.6.7"
+  },
+  "savePath": "/home/zero/Documents/bounce_tales/src/data/img",
+  "images": [
+    {
+      "name": "blue_egg.png",
+      "path": "/home/zero/Documents/bounce_tales/src/data/img/assets/blue_egg.png",
+      "folder": ""
+    },
+    {
+      "name": "bounce001.png",
+      "path": "/home/zero/Downloads/Untitled/bounce001.png",
+      "folder": ""
+    },
+    {
+      "name": "bounce002.png",
+      "path": "/home/zero/Downloads/Untitled/bounce002.png",
+      "folder": ""
+    },
+    {
+      "name": "bounce003.png",
+      "path": "/home/zero/Downloads/Untitled/bounce003.png",
+      "folder": ""
+    },
+    {
+      "name": "bounce004.png",
+      "path": "/home/zero/Downloads/Untitled/bounce004.png",
+      "folder": ""
+    },
+    {
+      "name": "controler_jump.png",
+      "path": "/home/zero/Documents/bounce_tales/src/data/img/assets/controler_jump.png",
+      "folder": ""
+    },
+    {
+      "name": "controler_left_right.png",
+      "path": "/home/zero/Documents/bounce_tales/src/data/img/assets/controler_left_right.png",
+      "folder": ""
+    },
+    {
+      "name": "egg.png",
+      "path": "/home/zero/Downloads/Untitled (2)/egg.png",
+      "folder": ""
+    },
+    {
+      "name": "machine_1.png",
+      "path": "/home/zero/Documents/bounce_tales/src/data/img/assets/machine_1.png",
+      "folder": ""
+    },
+    {
+      "name": "machine_2.png",
+      "path": "/home/zero/Documents/bounce_tales/src/data/img/assets/machine_2.png",
+      "folder": ""
+    },
+    {
+      "name": "machine_3.png",
+      "path": "/home/zero/Documents/bounce_tales/src/data/img/assets/machine_3.png",
+      "folder": ""
+    },
+    {
+      "name": "machine_broken.png",
+      "path": "/home/zero/Documents/bounce_tales/src/data/img/assets/machine_broken.png",
+      "folder": ""
+    },
+    {
+      "name": "mute.png",
+      "path": "/home/zero/Documents/bounce_tales/src/data/img/assets/mute.png",
+      "folder": ""
+    },
+    {
+      "name": "stars_1.png",
+      "path": "/home/zero/Downloads/Untitled (2)/stars_1.png",
+      "folder": ""
+    },
+    {
+      "name": "stars_2.png",
+      "path": "/home/zero/Downloads/Untitled (2)/stars_2.png",
+      "folder": ""
+    },
+    {
+      "name": "stars_3.png",
+      "path": "/home/zero/Downloads/Untitled (2)/stars_3.png",
+      "folder": ""
+    },
+    {
+      "name": "stars_4.png",
+      "path": "/home/zero/Downloads/Untitled (2)/stars_4.png",
+      "folder": ""
+    },
+    {
+      "name": "stars_5.png",
+      "path": "/home/zero/Downloads/Untitled (2)/stars_5.png",
+      "folder": ""
+    },
+    {
+      "name": "start.png",
+      "path": "/home/zero/Downloads/start.png",
+      "folder": ""
+    },
+    {
+      "name": "switch_off.png",
+      "path": "/home/zero/Downloads/Untitled (1)/switch_off.png",
+      "folder": ""
+    },
+    {
+      "name": "switch_on.png",
+      "path": "/home/zero/Downloads/Untitled (1)/switch_on.png",
+      "folder": ""
+    },
+    {
+      "name": "topo.png",
+      "path": "/home/zero/Documents/bounce_tales/src/data/img/topo.png",
+      "folder": ""
+    },
+    {
+      "name": "topo_ground_1.png",
+      "path": "/home/zero/Documents/bounce_tales/src/data/img/assets/topo_ground_1.png",
+      "folder": ""
+    },
+    {
+      "name": "topo_ground_2.png",
+      "path": "/home/zero/Documents/bounce_tales/src/data/img/assets/topo_ground_2.png",
+      "folder": ""
+    },
+    {
+      "name": "topo_ground_3.png",
+      "path": "/home/zero/Documents/bounce_tales/src/data/img/assets/topo_ground_3.png",
+      "folder": ""
+    },
+    {
+      "name": "unmute.png",
+      "path": "/home/zero/Documents/bounce_tales/src/data/img/assets/unmute.png",
+      "folder": ""
+    }
+  ],
+  "folders": [],
+  "packOptions": {
+    "textureName": "texture",
+    "textureFormat": "png",
+    "removeFileExtension": false,
+    "prependFolderName": true,
+    "base64Export": true,
+    "tinify": false,
+    "tinifyKey": "",
+    "scale": 1,
+    "filter": "none",
+    "exporter": "JSON (array)",
+    "fileName": "pack-result",
+    "savePath": "/home/zero/Documents/bounce_tales/src/data/img",
+    "width": 2048,
+    "height": 2048,
+    "fixedSize": false,
+    "powerOfTwo": false,
+    "padding": 0,
+    "extrude": 0,
+    "allowRotation": true,
+    "allowTrim": true,
+    "trimMode": "trim",
+    "alphaThreshold": "0",
+    "detectIdentical": true,
+    "packer": "OptimalPacker",
+    "packerMethod": "Automatic"
+  }
+}

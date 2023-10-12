@@ -62,18 +62,15 @@ function onload() {
             me.loader.getImage("texture")
         );
 
-
         me.state.change(me.state.MENU);
     });
 }
-
 
 
 /**
  *
  * start the application
  */
-
 me.device.onReady(() => {
     me.device.pauseOnBlur = false;
     onload();
